@@ -1,0 +1,28 @@
+.__my-container-full{
+  width: 100%;
+  height: 100%;
+}
+
+.__navbar-top{
+  height: 70px;
+  background-color: #F8F9FA;
+  width: 100%;
+  position: absolute;
+}
+
+.__navbar-left{
+  height: calc(100% - 70px);
+  background-color: #051E34 ;
+  width: 150px;
+  bottom: 0;
+  position: absolute;
+}
+
+.__my-container-page{
+  height: calc(100% - 70px);
+  width: calc(100% - 150px);
+  background-color: coral;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
