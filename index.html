@@ -20,8 +20,8 @@
 
 <body>
   <div class="__my-container-full d-flex">
-    <nav class="__my-navbar">
-      <div class="__navbar-top d-flex align-items-center bg-white">
+    <nav class="__my-navbar-top">
+      <div class="__navbar-top d-flex align-items-center bg-white justify-content-between">
         <div class="__logo-container px-2">
           <img class="img-fluid" src="img/logo.svg" alt="">
 
@@ -68,10 +68,121 @@
       </div>
 
     </nav>
-    <nav class=" __navbar-left">
+    <nav class=" __my-navbar-left px-3 py-4 d-flex flex-column justify-content-between">
+      <div class="__my-navbar-left-links d-flex flex-column text-white">
+        <div class="__link d-flex mb-3 ">
+          <div class="__link-icon px-2">
+            <a><i class="fa-solid fa-house"></i></a>
+          </div>
+          <div class="__link-description">
+            <a class="text-white fw-medium" href="">Home</a>
+          </div>
+        </div>
+        <div class="__link d-flex  mb-3 ">
+          <div class="__link-icon px-2">
+            <a><i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+          <div class="__link-description">
+            <a class="text-white fw-medium" href="">Stats</a>
+          </div>
+        </div>
+        <div class="__link d-flex  mb-3 ">
+          <div class="__link-icon px-2">
+            <a><i class="fa-solid fa-signal"></i></a>
+          </div>
+          <div class="__link-description">
+            <a class="text-white fw-medium" href="">Signals</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="__my-navbar-left-settings text-white">
+        <div class="__link d-flex  mb-3 ">
+          <div class="__link-icon px-2">
+            <a><i class="fa-solid fa-gear"></i></a>
+          </div>
+          <div class="__link-description">
+            <a class="text-white fw-medium" href="">Admin</a>
+          </div>
+        </div>
+
+      </div>
 
     </nav>
+
+
+
+
     <div class="__my-container-page">
+      <nav class="__nav-page-inner overflow-hidden">
+        <div class=" text-start">
+          <div class="row px-0">
+            <div class="col-6">
+              <div class="p-1">
+                <div class="_div-piano-blaze d-flex align-items-baseline">
+                  <h1 class="text-white m-3">Boolean</h1>
+                  <button class="__my-btn fw-medium"> Piano blaze</button>
+                </div>
+                <div style="--bs-breadcrumb-divider: '&#xf101;'; font-family: FontAwesome; color: white;"
+                  aria-label="breadcrumb" class="d-flex px-3">
+                  <ol class="breadcrumb d-flex mx-1">
+                    <li class="breadcrumb-item "><a href="#"><button class="__my-btn fw-medium">3 app</button></a></li>
+                    <li class="breadcrumb-item " aria-current="page">
+                      <button class="__my-btn fw-medium ">Boolena Mobile App</button>
+
+
+
+
+
+
+                    </li>
+                    <button class="__my-btn fw-medium ">Boolena Mobile App</button>
+                    <button class="__my-btn fw-medium ">Boolena Mobile App</button>
+
+
+
+
+
+                  </ol>
+
+                </div>
+
+
+
+
+
+
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="p-1">
+                <div>
+                  <span>Studenti online negli ultimi 30 minuti</span>
+                </div>
+                <div>
+                  124
+                </div>
+
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="p-1 d-flex">
+                <div class="__add-student">
+                  <span>aggiungi studente</span>
+
+                </div>
+                <div class="__add-student-icon">
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </nav>
 
     </div>
 
