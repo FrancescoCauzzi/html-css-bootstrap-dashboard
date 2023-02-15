@@ -3,12 +3,34 @@
   height: 100%;
 }
 
-.__navbar-top{
+a {
+  color: #5B5858;
+  cursor: pointer;
+}
+
+/* navbar top */
+.__my-navbar{
   height: 70px;
   background-color: #F8F9FA;
   width: 100%;
   position: absolute;
+  padding: 14px 0px 14px 0px;
 }
+
+/* .__my-search-input {
+  
+} */
+
+.__my-search-form{
+  width: 80%;
+}
+
+
+
+
+
+
+/* navbar top */
 
 .__navbar-left{
   height: calc(100% - 70px);
@@ -26,3 +48,5 @@
   bottom: 0;
   right: 0;
 }
+
+
