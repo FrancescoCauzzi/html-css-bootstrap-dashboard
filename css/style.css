@@ -27,11 +27,15 @@ a {
 }
 
 .input-group-text{
-  background-color: white;
+  background-color: #E5E5E5;
+  cursor: pointer;
 }
 
 .form-control.__my-form-control{
   border-left: none;
+  background-color: #E5E5E5;
+  
+
 }
 
 .__my-search-form{
@@ -91,6 +95,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
+  overflow-y: auto;
 }
 
 .__my-container-page .__nav-page-inner{
@@ -127,6 +132,10 @@ a {
   --bs-btn-border-color: none;
   --bs-btn-color: black;
 
+}
+
+.__html-icon{
+  background-color:#F26551;
 }
 /* my-container-page */
 
