@@ -129,7 +129,7 @@
                   <ol class="breadcrumb d-flex mx-1">
                     <li class="breadcrumb-item "><a href="#"><button class="__my-btn fw-medium">3 app</button></a></li>
                     <li class="breadcrumb-item " aria-current="page">
-                      <button class="__my-btn fw-medium ">Boolena Mobile App</button>
+                      <button class="__my-btn fw-medium ">Boolean Mobile App</button>
 
 
 
@@ -138,7 +138,7 @@
 
                     </li>
                     <button class="__my-btn fw-medium ">Boolena Mobile App</button>
-                    <button class="__my-btn fw-medium ">Boolena Mobile App</button>
+                    <button class="__my-btn fw-medium ">Boolean Mobile App</button>
 
 
 
@@ -156,23 +156,162 @@
               </div>
             </div>
             <div class="col-3">
-              <div class="p-1">
-                <div>
-                  <span>Studenti online negli ultimi 30 minuti</span>
+              <div class="py-4 d-flex justify-content-center flex-column">
+                <div class="__students-online">
+                  <span class="fw-medium text-white">Studenti online negli ultimi 30 minuti</span>
                 </div>
                 <div>
-                  124
+                  <span class="text-white fs-1">
+                    125
+                  </span>
                 </div>
 
               </div>
             </div>
             <div class="col-3">
-              <div class="p-1 d-flex">
-                <div class="__add-student">
-                  <span>aggiungi studente</span>
+              <div class="py-4 d-flex">
+                <div class="__add-student ">
+                  <span class="fw-medium text-white">Nuovo studente</span>
 
                 </div>
                 <div class="__add-student-icon">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon __navbar-toggler-icon"><i
+                        class="fa-regular fa-square-plus"></i></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end __offcanvas-div" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Inserisci un nuovo studente</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ">
+                      <div class="container text-start">
+                        <div class="row row-cols-2">
+                          <div class="col">
+                            <div class="input-group flex-column mb-3">
+                              <div class="mb-2">
+                                <span class="fw-medium">Nome</span>
+                              </div>
+                              <input type="text" class="form-control __form-control d-block" placeholder=""
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group flex-column mb-3">
+                              <div class="mb-2">
+                                <span class="fw-medium">Email</span>
+                              </div>
+                              <div class=" input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                <input type="email" class="form-control" placeholder="" aria-label="Email"
+                                  aria-describedby="addon-wrapping">
+                              </div>
+                            </div>
+                            <div class="input-group flex-column mb-3">
+                              <div class="mb-2">
+                                <span class="fw-medium">Email</span>
+                              </div>
+                              <div class=" input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                <input type="email" class="form-control" placeholder="" aria-label="Email"
+                                  aria-describedby="addon-wrapping">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="input-group flex-column mb-3">
+                              <div class="mb-2">
+                                <span class="fw-medium">Cognome</span>
+                              </div>
+                              <input type="text" class="form-control __form-control d-block" placeholder=""
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group flex-column mb-3">
+                              <div class="mb-2">
+                                <span class="fw-medium">Password</span>
+                              </div>
+                              <input type="text" class="form-control __form-control d-block" placeholder=""
+                                aria-label="Password" aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group flex-column mb-3">
+                              <div class="mb-2">
+                                <span class="fw-medium">Password</span>
+                              </div>
+                              <input type="text" class="form-control __form-control d-block" placeholder=""
+                                aria-label="Password" aria-describedby="addon-wrapping">
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="input-group mb-3">
+                          <div class="mb-2">
+                            <span class="fw-medium">Indirizzo</span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="" aria-label="Username"
+                            aria-describedby="addon-wrapping">
+                        </div>
+                        <div class="row row-cols-2 mb-3">
+                          <div class="col">
+                            <div class="input-group flex-column">
+                              <div class="mb-2">
+                                <span class="fw-medium">Città</span>
+                              </div>
+                              <input type="text" class="form-control __form-control d-block" placeholder=""
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="row ">
+                              <div class="col-8">
+                                <div class="mb-2">
+                                  <span class="fw-medium">Stato</span>
+                                </div>
+                                <div class="input-group">
+                                  <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Scegli...</option>
+                                    <option value="1">Italia</option>
+                                    <option value="2">Francia</option>
+                                    <option value="3">Spagna</option>
+                                  </select>
+                                </div>
+
+                              </div>
+                              <div class="col-4">
+                                <div class="input-group flex-column">
+                                  <div class="mb-2">
+                                    <span class="fw-medium">CAP</span>
+                                  </div>
+                                  <input type="text" class="form-control __form-control d-block" placeholder=""
+                                    aria-label="CAP" aria-describedby="addon-wrapping">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                        <!-- foto -->
+                        <div class="input-group mb-3">
+                          <input type="file" class="form-control fw-medium" id="inputGroupFile02">
+
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label fw-medium" for="flexCheckDefault">
+                            Seleziona per proseguire
+                          </label>
+                        </div>
+                        <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                        <label class="btn btn-primary fw-medium" for="btn-check">Salva</label>
+                        <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                        <label class="btn btn-primary fw-medium" id="__orange-button" for="btn-check">Svuota</label>
+
+
+                      </div>
+
+
+
+                    </div>
+                  </div>
 
                 </div>
 

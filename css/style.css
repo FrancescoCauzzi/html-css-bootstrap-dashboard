@@ -108,10 +108,24 @@ a {
 }
 
 
+.__navbar-toggler-icon{
+  color: white;
+  font-size: 2.5em;
+}
 
+.__offcanvas-div{
+  --bs-offcanvas-width: 50%;
+}
 
+.input-group>.form-control{
+  width: 100%
+}
 
-
-
+#__orange-button{
+  --bs-btn-bg: #FFC107;
+  --bs-btn-border-color: none;
+  --bs-btn-color: black;
+  
+}
 /* my-container-page */
 
