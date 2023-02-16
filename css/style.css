@@ -62,28 +62,16 @@ a {
   
 }
 
-/* navbar left */
+.__my-navbar-left-links .__link{
+  
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.__my-navbar-left-links .__link:hover, .__my-navbar-left-settings .__link:hover{
+  background-color: rgba(236,236,236,0.5);
+  
+}
 
 /* navbar left */
-
-
-
-
-
-
 
 
 /* my-container-page */
