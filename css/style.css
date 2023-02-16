@@ -26,9 +26,13 @@ a {
   width: 100%;
 }
 
-/* .__my-search-input {
-  
-} */
+.input-group-text{
+  background-color: white;
+}
+
+.form-control.__my-form-control{
+  border-left: none;
+}
 
 .__my-search-form{
   width: 80%;
@@ -93,20 +97,17 @@ a {
   background-color: #1B72E8;
 }
 
-.__my-btn{
-  background-color: #165BBA;
-  /* height: 25px; */
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  border: none;
+.__my-bc-item.breadcrumb-item::before{
   color: white;
-  margin-right: 8px;
-  
-  
-  
+  content: '>>';
+  font-weight: bold;
+
 }
 
+.badge.rounded-pill{
+  background-color: #165BBA;
+  
+}
 
 .__navbar-toggler-icon{
   color: white;
@@ -125,7 +126,7 @@ a {
   --bs-btn-bg: #FFC107;
   --bs-btn-border-color: none;
   --bs-btn-color: black;
-  
+
 }
 /* my-container-page */
 

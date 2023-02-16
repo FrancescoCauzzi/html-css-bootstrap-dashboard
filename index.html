@@ -28,9 +28,12 @@
         </div>
         <form class="d-flex __my-search-form">
           <div class="input-group ">
-            <input class="form-control __my-search-input" type="search"
-              placeholder="&#xf002; Prova a cercare: Lezioni di Laravel" aria-label="Search"
-              style="font-family: FontAwesome; text-transform: lowercase;">
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input type="text" class="form-control __my-form-control"
+                placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="addon-wrapping">
+            </div>
+
 
           </div>
         </form>
@@ -122,27 +125,19 @@
               <div class="p-1">
                 <div class="_div-piano-blaze d-flex align-items-baseline">
                   <h1 class="text-white m-3">Boolean</h1>
-                  <button class="__my-btn fw-medium"> Piano blaze</button>
+                  <a href=""><span class="badge rounded-pill ">Primary</span></a>
                 </div>
-                <div style="--bs-breadcrumb-divider: '&#xf101;'; font-family: FontAwesome; color: white;"
-                  aria-label="breadcrumb" class="d-flex px-3">
+                <div aria-label="breadcrumb" class="d-flex px-3">
                   <ol class="breadcrumb d-flex mx-1">
-                    <li class="breadcrumb-item "><a href="#"><button class="__my-btn fw-medium">3 app</button></a></li>
-                    <li class="breadcrumb-item " aria-current="page">
-                      <button class="__my-btn fw-medium ">Boolean Mobile App</button>
-
-
-
-
-
-
+                    <li class="breadcrumb-item "><a href="#"><span class="badge rounded-pill ">Primary</span></a>
                     </li>
-                    <button class="__my-btn fw-medium ">Boolena Mobile App</button>
-                    <button class="__my-btn fw-medium ">Boolean Mobile App</button>
-
-
-
-
+                    <li class="__my-bc-item breadcrumb-item " aria-current="page">
+                      <a href=""><span class="badge rounded-pill ">Primary</span></a>
+                    </li>
+                    <li class=" "><a href="#"><span class="badge rounded-pill ">Primary</span></a>
+                    </li>
+                    <li class=" "><a href="#"><span class="badge rounded-pill ">Primary</span></a>
+                    </li>
 
                   </ol>
 
