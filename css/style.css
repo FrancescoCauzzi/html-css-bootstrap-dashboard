@@ -169,3 +169,10 @@ a {
   }
  
 }
+
+@media screen and (max-width: 767px){
+  .__offcanvas-div{
+    --bs-offcanvas-width: 100%;
+  }
+
+}
