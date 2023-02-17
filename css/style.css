@@ -150,3 +150,22 @@ a {
 /* todo */
 /* my-container-page */
 
+@media screen and (max-width: 991px) {
+  .__my-navbar-left{
+    width: 70px;
+    
+    
+  }
+
+  .__my-navbar-left .__my-navbar-left-links .__link .__link-description, .__my-navbar-left .__my-navbar-left-settings .__link .__link-description {
+    display: none;  
+    
+    
+  }
+
+  .__my-container-page{
+    width: calc(100% - 70px);
+    
+  }
+ 
+}
